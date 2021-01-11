@@ -2,9 +2,6 @@
 FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-4
 WORKDIR /root
 
-# Workaround needed for 2.3 (will not be necessary in 2.4)
-# RUN pip install tensorflow 'h5py<3.0.0'
-
 # Copies the trainer code to the docker image.
 COPY trainer/ /root/trainer/
 
