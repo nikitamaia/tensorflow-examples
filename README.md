@@ -1,2 +1,2 @@
 # tensorflow-examples
-TensorFlow tutorials and guides.
+TensorFlow distributed training colabs
